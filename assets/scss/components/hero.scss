@@ -1,0 +1,44 @@
+
+.change-img-1 {
+	background-image: url(../img/slider/slide1.jpg);
+    &::befor{
+        content: '';
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.4;
+            position: relative;
+            z-index: 55;
+            display: block;
+        }
+}
+.slick-next.slick-arrow {
+	background: transparent;
+	border: none;
+	position: absolute;
+	z-index: 6666;
+	top: 50%;
+	right: 4%;
+	color: #fff;
+	font-size: 33px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+        color: $hover-color;
+    }
+}
+.slick-prev.slick-arrow {
+	background: transparent;
+	border: none;
+	position: absolute;
+	z-index: 6666;
+	top: 50%;
+	left: 4%;
+	color: #fff;
+	font-size: 33px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+        color: $hover-color;
+    }
+}

@@ -1,0 +1,25 @@
+.header-transparent {
+	position: absolute;
+	top: 0;    
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+	.main-menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.main-menu li {
+			padding: 0 23px;
+			.main-menu li a:hover{
+				color: #fff;
+				font-size: 17px;
+				text-transform: uppercase;
+				transition: .5s;
+				&:hover{
+                  color: $hover-color; 
+				}
+			}
+		}
+	}
+}
