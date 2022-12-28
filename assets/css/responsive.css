@@ -1,6 +1,6 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    
 
 }
 
@@ -8,13 +8,189 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+    .main-menu li a{
+        padding: 0;
+    }
+    .slide-content h5 {
+        font-size: 15px;
+    }
+    .slide-content h1 {
+        font-size: 59px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        padding: 15px 27px;
+    }
+    .section-title h3 {
+        font-size: 35px;
+    }
+    .single-counter .counter {
+        font-size: 35px;
+    }
+    .single-counter span {
+        font-size: 14px;
+    }
+    .counter::before {
+        left: 108px;
+    }
+    .single-team:hover .team-content p {
+        font-size: 12px;
+    }
+    .team-icon a {
+        padding: 6px 7px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+    .single-team:hover ::before {
+        height: 80.5%;
+    }
+    .intro-content {
+        margin: 7.5% 0 20.5% 44px;
+    }
+    .intro-content h4 {
+        font-size: 32px;
+    }
+    .intro-content span {
+        font-size: 13px;
+    }
+    .intro-content p {
+        font-size: 13px;
+    }
+    .single-news .sing-news-content a {
+        font-size: 16px;
+    }
+    .news-spans span a {
+        font-size: 12px !important;
+    }
+    .sing-news-content p {
+        font-size: 12px;
+    }
+    .footer-widget .with-padding {
+        font-size: 13px;
+    }
+    .footer-icon a {
+        font-size: 13px;
+    }
+    .footer-widget .another-a {
+        font-size: 14px;
+    }
+    .footer-widget p {
+        font-size: 12px;
+    }
+    .sibscribe input {
+        font-size: 12px;
+    }
+    .sibscribe i {
+        padding: 9px 16px 15.5px 17px;
+    }
 
 }
 
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .slide-content h5 {
+        font-size: 14px;
+    }
+    .slide-content h1 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .btn {
+        padding: 15px 27px;
+    }
+    .mean-container a.meanmenu-reveal {
+        border: none;
+        color: #fff;
+        display: block;
+        margin-top: 0px; 
+        padding: 0; 
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff;
+        display: block;
+        height: 2px;
+        margin-top: 3px;
+        width: 19px;
+    }
+    .mean-container .mean-nav {
+        position: absolute;
+        top: 49px;
+    }
+    .section-title h3 {
+        font-size: 30px;
+    }
+    .section-title p {
+        font-size: 13px;
+    }
+    .section-title span {
+        font-size: 13px;
+    }
+    .single-feature {
+        margin-bottom: 40px;
+    }
+    .single-servies p {
+        font-size: 13px;
+    }
+    .single-counter .counter {
+        font-size: 30px;
+    }
+    .single-counter span {
+        font-size: 12px;
+    }
+    .counter::before {
+        top: 69px;
+        left: 79px;
+    }
+    .single-team {
+        margin-bottom: 45px;
+    }
+    .intro-content span {
+        font-size: 13px;
+    }
+    .intro-content {
+        margin: 9.5% 0 7.5% 30px;
+    }
+    .intro-content h4 {
+        font-size: 26px;
+    }
+    .intro-content p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .single-news .sing-news-content a {
+        font-size: 16px;
+    }
+    .news-spans span a {
+        font-size: 12px !important;
+    }
+    .sing-news-content p {
+        font-size: 12px;
+    }
+    .single-news {
+        transition: all 0.4s ease-out 0s;
+        margin-bottom: 26px;
+    }
+    .footer-widget .with-padding {
+        font-size: 13px;
+        padding: 0 44px 0 0px;
+    }
+    .footer-icon a {
+        font-size: 13px;
+    }
+    .footer-widget .another-a {
+        font-size: 14px;
+    }
+    .footer-widget p {
+        font-size: 12px;
+    }
+    .sibscribe input {
+        font-size: 7px;
+        padding: 17px 11px 14px 14px;
+    }
+    .sibscribe i {
+        padding: 9px 10px 16.5px 12px;
+    }
 
 }
 
