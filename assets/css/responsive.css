@@ -197,7 +197,89 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
+    .mean-container a.meanmenu-reveal {
+        border: none;
+        color: #fff;
+        display: block;
+        margin-top: 0px; 
+        padding: 0; 
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff;
+        display: block;
+        height: 2px;
+        margin-top: 3px;
+        width: 19px;
+    }
+    .mean-container .mean-nav {
+        position: absolute;
+        top: 49px;
+    }
+    .header-transparent {
+        padding: 31px 31px;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -7%;
+    }
+    .slide-content h5 {
+        font-size: 12px;
+    }
+    .slide-content h1 {
+        font-size: 31px;
+        width: 200%;
+        margin-left: -79px;
+        margin-bottom: 25px;
+    }
+    .section-title span {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .section-title h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .section-title p {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .single-feature {
+        margin-bottom: 42px;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .single-counter .counter {
+        font-size: 37px;
+    }
+    .counter::before {
+        left: 67px;
+    }
+    .single-team:hover ::before {
+        height: 80.5%;
+    }
+    .team-content .team-icon {
+        left: 85px;
+    }
+    .single-team {
+        margin-bottom: 40px;
+    }
+    .intro-content {
+        margin: 95.5% 0 17.5% 0px;
+    }
+    .intro-content h4 {
+        font-size: 28px;
+    }
+    .intro-content span {
+        font-size: 12px;
+    }
+    .intro-content p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .btn {
+        padding: 13px 17px;
+        font-size: 11px;
+    }
  
 }
  

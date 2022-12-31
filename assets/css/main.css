@@ -283,22 +283,36 @@ label {
     justify-content: center;
 }
 
+/* no-gutter */
+
+.no-gutter > [class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* no-gutter */
+
 /* scrollUp */
+
 #scrollUp {
-	background: #7DBA2F;
-	height: 35px;
-	width: 35px;
-	right: 50px;
-	bottom: 77px;
-	color: #fff;
-	font-size: 20px;
-	text-align: center;
-	border-radius: 50%;
-	font-size: 20px;
-	line-height: 34px;
+    background: red;
+    height: 34px;
+    width: 36px;
+    right: 50px;
+    bottom: 77px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 34px;
+    border-radius: 5px;
+    padding: 0px;
+    border-top: 3px solid #7DBA2F;
 }
 #scrollUp:hover {
-	background: #444;
+	border-top: 3px solid red;
+    background: #7dba2f;
 }
 
 /* <=====================> Header Area Start Here <===================> */
@@ -319,6 +333,7 @@ label {
 }
 .main-menu li {
     padding: 0px 21px;
+    display: inline-block;
 }
 .main-menu li a {
     color: #fff;
@@ -335,6 +350,50 @@ label {
     border-top-color: #fff;
     padding: 7px 5px;
 }
+.header-transparent .main-menu ul li a i {
+    font-size: 12px;
+    margin-left: 8px;
+    transition: all .3s ease;
+    font-weight: 700;
+    rotate: 0;
+    display: inline-block;
+}
+.main-menu li a:hover i{
+    rotate: 180deg;
+}
+nav ul li ul.submenu{
+	position: absolute;
+	top: 110%;
+	left: 0;
+	min-width: 250px;
+	background: white;
+	border-top: 2px solid #00c867;
+	transition: .3s;
+	text-align: left;
+	box-shadow: 0px 15px 30px 0px rgba(0, 3, 143, 0.1);
+	padding: 35px 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 999;
+}
+nav ul li:hover > ul.submenu{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+
+nav ul li ul.submenu li{
+	display: block;
+	margin: 0;
+    padding: 0;
+}
+ 
+nav ul li ul.submenu li a{
+	padding: 9px 25px;
+	text-transform: capitalize;
+}
+
+
 /* <=====================> Header Area End Here <===================> */
 
 
@@ -423,11 +482,21 @@ label {
 .single-slider.slick-active img {
 	transform: scale(1.4);
   }
-    .slider-track {
+.slider-track {
     transition: all 1s ease;
-  }
-
-  /*  */
+}
+.stl-2{
+    text-align: left;
+}
+.stl-2{
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -45%);
+    position: absolute;
+}
+.stl-2 h1{
+    margin-bottom: 30px;
+}
 
 /* <=====================> Slider Area End Here <===================> */
 
@@ -485,6 +554,27 @@ label {
 }
 .difualed-btn-2:hover {
 	color: #f26957;
+}
+.single-fea-stl-2 a {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    margin-bottom: 13px;
+    color: #fff;
+    display: block;
+}
+.single-fea-stl-2 {
+    background: #2a2d30;
+    padding: 75px 21px;
+}
+.cl-change{
+    background: #25282b;
+}
+.single-fea-stl-2 p {
+    color: #bdbdbd;
+}
+.single-fea-stl-2 .fea-stl-button {
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 /* <=====================> Feature Area End Here <===================> */
@@ -926,4 +1016,7 @@ button.active {
 
 
 /* <=====================> Footer Area End Here <===================> */
+
+
+
 
