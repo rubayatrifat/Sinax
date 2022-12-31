@@ -564,7 +564,7 @@ nav ul li ul.submenu li a{
 }
 .single-fea-stl-2 {
     background: #2a2d30;
-    padding: 75px 21px;
+    padding: 65px 21px;
 }
 .cl-change{
     background: #25282b;
@@ -925,6 +925,41 @@ button.active {
 }
 
 /* <=====================> News Area End Here <===================> */
+
+/* <=====================> Video Area Start Here <===================> */
+
+.video-area{
+    background-image: url(../img/video/video.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.video-content {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-content h3 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+.video-content a i{
+    background: #fff;
+    margin: auto;
+    display: block;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 0 0 13px;
+    margin-top: 36px;
+    color: #444444;
+}
+
+/* <=====================> Video Area End Here <===================> */
 
 /* <=====================> Footer Area Start Here <===================> */
 
