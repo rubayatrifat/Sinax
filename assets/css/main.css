@@ -344,7 +344,7 @@ label {
     border-bottom: 1px solid transparent;
     padding: 19px 5px;
 }
-.main-menu li a:hover{
+.main-menu li:hover a{
 	color: #f26957;
     border-bottom-color: #fff;
     border-top-color: #fff;
@@ -358,40 +358,42 @@ label {
     rotate: 0;
     display: inline-block;
 }
-.main-menu li a:hover i{
+.main-menu li:hover a i{
     rotate: 180deg;
 }
-nav ul li ul.submenu{
-	position: absolute;
-	top: 110%;
-	left: 0;
-	min-width: 250px;
-	background: white;
-	border-top: 2px solid #00c867;
-	transition: .3s;
-	text-align: left;
-	box-shadow: 0px 15px 30px 0px rgba(0, 3, 143, 0.1);
-	padding: 35px 0;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 999;
+nav ul li ul.submenu {
+    position: absolute;
+    top: 110%;
+    left: 40px;
+    min-width: 220px;
+    background: rgb(255, 255, 255);
+    border-top: 2.5px solid rgb(0, 200, 103);
+    transition: all 0.3s ease 0s;
+    text-align: left;
+    box-shadow: rgba(0, 3, 143, 0.1) 0px 15px 30px 0px;
+    padding: 26px 0px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    flex-direction: column;
 }
-nav ul li:hover > ul.submenu{
-	opacity: 1;
-	visibility: visible;
-	top: 100%;
+nav ul li:hover > ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 135%;
+}
+nav ul li ul.submenu li a {
+    text-transform: capitalize;
+    color: #000 !important;
+    margin: 0px 0 -5px 0;
+    display: block;
+    padding: 0;
+    transition: all .4s ease;
+}
+nav ul li ul.submenu li a:hover{
+    color: #f26957 !important;
 }
 
-nav ul li ul.submenu li{
-	display: block;
-	margin: 0;
-    padding: 0;
-}
- 
-nav ul li ul.submenu li a{
-	padding: 9px 25px;
-	text-transform: capitalize;
-}
 
 
 /* <=====================> Header Area End Here <===================> */
@@ -960,6 +962,48 @@ button.active {
 }
 
 /* <=====================> Video Area End Here <===================> */
+
+/* <=====================> Testimonial Area Start Here <===================> */
+
+.single-testimonial {
+    background: #25282b;
+    margin-left: 21px;
+    padding: 35px 45px;
+}
+.single-testimonial .testimonial-content p {
+    color: #e5e5e5;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #424242;
+    padding-bottom: 25px;
+}
+.img-and-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.img-cotent {
+    margin-left: 20px;
+}
+.img-cotent h5 {
+    color: #eee7e7;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.img-cotent span {
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 500;
+}
+.man-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* <=====================> Testimonial Area End Here <===================> */
 
 /* <=====================> Footer Area Start Here <===================> */
 
