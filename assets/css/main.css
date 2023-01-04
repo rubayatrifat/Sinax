@@ -332,7 +332,7 @@ label {
 	align-items: center;
 }
 .main-menu li {
-    padding: 0px 21px;
+    padding: 0px 14px;
     display: inline-block;
 }
 .main-menu li a {
@@ -451,8 +451,9 @@ nav ul li ul.submenu li a:hover{
 .slick-prev:hover.slick-arrow{
 	color: #f26957;
 }
-.slide-content{
-	text-align: center;
+.slide-content {
+    text-align: center;
+    z-index: 2;
 }
 .slide-content h1 {
     font-size: 80px;
@@ -463,7 +464,7 @@ nav ul li ul.submenu li a:hover{
     font-family: 'Roboto Condensed';
 }
 .slide-content h5 {
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     font-family: 'Roboto Condensed';
     text-transform: uppercase;
@@ -495,9 +496,18 @@ nav ul li ul.submenu li a:hover{
     left: 45%;
     transform: translate(-50%, -45%);
     position: absolute;
+    z-index: 2;
 }
 .stl-2 h1{
     margin-bottom: 30px;
+}
+h1.change-fontS {
+    font-size: 70px;
+}
+.slide-content p {
+    color: #fefefe;
+    padding: 0 221px 0 0;
+    font-size: 15px;
 }
 
 /* <=====================> Slider Area End Here <===================> */
@@ -1004,6 +1014,14 @@ button.active {
 }
 
 /* <=====================> Testimonial Area End Here <===================> */
+
+/* ======================> Big About Img Area Start Here <=======================  */
+
+.big-img img {
+    max-width: 100%;
+}
+
+/* ======================> Big About Img Area End Here <=======================  */
 
 /* <=====================> Footer Area Start Here <===================> */
 
