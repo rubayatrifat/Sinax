@@ -344,11 +344,20 @@ label {
     border-bottom: 1px solid transparent;
     padding: 19px 5px;
 }
+.main-menu li .chan-color {
+    color: #000;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
 .main-menu li:hover a{
 	color: #f26957;
     border-bottom-color: #fff;
     border-top-color: #fff;
     padding: 7px 5px;
+}
+.main-menu li:hover .chan-color{
+    border-bottom-color: #000;
+    border-top-color: #000;
 }
 .header-transparent .main-menu ul li a i {
     font-size: 12px;
@@ -364,8 +373,7 @@ label {
 nav ul li ul.submenu {
     position: absolute;
     top: 110%;
-    left: 40px;
-    min-width: 220px;
+    min-width: 153px;
     background: rgb(255, 255, 255);
     border-top: 2.5px solid rgb(0, 200, 103);
     transition: all 0.3s ease 0s;
@@ -376,6 +384,7 @@ nav ul li ul.submenu {
     visibility: hidden;
     z-index: 999;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 nav ul li:hover > ul.submenu {
     opacity: 1;
@@ -392,9 +401,21 @@ nav ul li ul.submenu li a {
 }
 nav ul li ul.submenu li a:hover{
     color: #f26957 !important;
+    text-align: center;
 }
-
-
+nav ul li ul.submenu li{
+    transition: all .4s ease;
+}
+nav ul li ul.submenu li:hover{
+    background-color: #ddd;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header-2 {
+    background: #fff;
+    position: inherit;
+}
 
 /* <=====================> Header Area End Here <===================> */
 
@@ -508,6 +529,21 @@ h1.change-fontS {
     color: #fefefe;
     padding: 0 221px 0 0;
     font-size: 15px;
+}
+section.slider-2 {
+    background: #25282B;
+}
+.slide-2-content h2 {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 40px;
+}
+.slide-2-left-con h5 {
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    margin-top: 17px;
 }
 
 /* <=====================> Slider Area End Here <===================> */
@@ -1022,6 +1058,34 @@ button.active {
 }
 
 /* ======================> Big About Img Area End Here <=======================  */
+
+
+.call-action-area {
+    background: #F26957;
+}
+.call-action-content h2 {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 35px;
+}
+.call-action-btn {
+    color: #F26957;
+    background: #fff;
+    padding: 10px 0px 10px 23px;
+    font-size: 15px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+    width: 119px;
+    transition: all ease .5s;
+}
+.call-action-btn:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
 
 /* <=====================> Footer Area Start Here <===================> */
 
