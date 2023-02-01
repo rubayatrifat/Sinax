@@ -1,6 +1,10 @@
 (function ($) {
   ("use strict");
 
+  $(window).on('load', function() {
+    $("#loading").fadeOut(700);
+    })
+  
   // meanmenu
   $("#mobile-menu").meanmenu({
     meanMenuContainer: ".mobile-menu",
@@ -53,9 +57,9 @@
       cssEase: 'ease',
       touchThreshold: 100,
       prevArrow:
-        '<button type="button" class="slick-prev"><i class="ti-shift-left"></i></button>',
+        '<button type="button" class="slick-prev wow fadeInLeft"><i class="ti-shift-left"></i></button>',
       nextArrow:
-        '<button type="button" class="slick-next"><i class="ti-shift-right"></i></button>',
+        '<button type="button" class="slick-next wow fadeInRight"><i class="ti-shift-right"></i></button>',
       responsive: [
         { breakpoint: 767, settings: { dots: false, arrows: false } },
       ],

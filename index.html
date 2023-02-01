@@ -26,6 +26,21 @@
     </head>
     <body>
 
+<!-- ======================> Loading Area Start Here <======================= -->        
+
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two" style="left:20px;"></div>
+                    <div class="object" id="object_three" style="left:40px;"></div>
+                    <div class="object" id="object_four" style="left:60px;"></div>
+                    <div class="object" id="object_five" style="left:80px;"></div>
+                </div>
+            </div>     
+        </div>
+
+<!-- ======================> Loading Area End Here <======================= -->        
 
 <!-- ======================> Header Area Start Here <======================= -->
 
@@ -61,7 +76,15 @@
                                 </li>
 
                                 <li><a href="servies.html">SERVICES</a></li>
-                                <li><a href="protfolio.html">PORTFOLIO</a></li>
+                                <li>
+                                    <a href="#">PORTFOLIO
+                                        <i class="ti-angle-down"></i>
+                                    </a>
+                                    <ul class="submenu">  
+                                        <li><a href="protfolio.html">Portfolio</a></li>
+                                        <li><a href="port-detail.html">Portfolio Details</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">BLOG</a></li>
                                 <li><a href="#">CONTACT</a></li>
                                 <li><a href="#"><i class="ti-menu"></i></a></li>
@@ -94,9 +117,9 @@
             </div>   
             
             <div class="slide-content">
-                <h5>we are sinax agency</h5>
-                <h1> Creative digital studio<br> for your business.</h1>
-                <a href="#" class="btn btn-2">ABOUT US</a>
+                <h5 class="wow fadeInDown">we are sinax agency</h5>
+                <h1 class="wow fadeInDown"> Creative digital studio<br> for your business.</h1>
+                <a href="#" class="btn btn-2 wow fadeInDown">ABOUT US</a>
             </div>  
         </section>
 
@@ -105,21 +128,21 @@
         
 <!-- ======================> Feature Area Start Here <======================= -->
         
-        <section class="features-area pt-125 pb-115">
+        <section class="features-area pt-125 pb-115 fix">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12">
                         <div class="section-title">
-                            <span>introducing</span>    
-                            <h3>Our skills make your business</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration  
+                            <span class="wow fadeInDown">introducing</span>    
+                            <h3 class="wow fadeInDown">Our skills make your business</h3>
+                            <p class="wow fadeInDown">There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration  
                             injected humour avoids pleasure itself</p> 
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-feature">
+                        <div class="single-feature wow fadeInLeft">
                             <img src="assets/img/feature/fea-1.jpg">
                             <div class="sing-fea-content">
                                 <a href="#">Awesome Strategy</a>
@@ -132,7 +155,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-feature">
+                        <div class="single-feature wow pulse">
                             <img src="assets/img/feature/fea-2.jpg">
                             <div class="sing-fea-content">
                                 <a href="#">Digital Marketing</a>
@@ -145,7 +168,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-feature">
+                        <div class="single-feature wow fadeInRight">
                             <img src="assets/img/feature/fea-3.jpg">
                             <div class="sing-fea-content">
                                 <a href="#">Update Technology</a>
@@ -164,21 +187,21 @@
 
 <!-- ======================> Servise Area Start Here <======================= -->
 
-        <section class="servies-area pt-125 pb-115">
+        <section class="servies-area pt-125 pb-115 fix">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 col-lg-12">
                         <div class="section-title">
-                            <span>WE ARE EXPERT THIS</span>    
-                            <h3>Our Awesome Services</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration
+                            <span class="wow fadeInDown">WE ARE EXPERT THIS</span>    
+                            <h3 class="wow fadeInDown">Our Awesome Services</h3>
+                            <p class="wow fadeInDown">There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration
                             injected humour avoids pleasure itself</p> 
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInLeft">
                             <i class="ti-ruler-pencil"></i>
                             <h4>Grapics Design</h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -187,7 +210,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInDown">
                             <i class="ti-desktop"></i>
                             <h4>Web Development</h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -196,7 +219,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInRight">
                             <i class="ti-bar-chart"></i>
                             <h4>Social Marketing</h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -205,7 +228,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInLeft">
                             <i class="ti-announcement"></i>
                             <h4>Branding Identity </h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -214,7 +237,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInUp">
                             <i class="ti-book"></i>
                             <h4>SEO Solutions </h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -223,7 +246,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-servies">
+                        <div class="single-servies wow fadeInRight">
                             <i class="ti-paint-roller"></i>
                             <h4>Logo Design</h4>
                             <p>On the other handi, we denounce with eous indig  of nation and dislike men who are so beg uiled and  his 
@@ -243,16 +266,16 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
                     <div class="section-title">
-                        <span>LATEST WORK</span>    
-                        <h3>Awesome Portfolio</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration
+                        <span class="wow fadeInDown">LATEST WORK</span>    
+                        <h3 class="wow fadeInDown">Awesome Portfolio</h3>
+                        <p class="wow fadeInDown">There are many variations of passages of Lorem Ipsum available, but the majority have in form, by suffered some alteration
                         injected humour avoids pleasure itself</p> 
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
-                    <div class="portfolio-menu text-center mb-50">
+                    <div class="portfolio-menu text-center mb-50 wow fadeInDown">
                         <button class=" active" data-filter="*" >Show all</button>
                         <button data-filter=".branding" class="">Branding   </button>
                         <button data-filter=".web">Web</button>

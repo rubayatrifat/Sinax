@@ -314,6 +314,86 @@ label {
 	border-top: 3px solid red;
     background: #7dba2f;
 }
+/* <=======================> Loader Area Start Here <===================> */
+
+    #loading {
+        background-color: #db5800;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+        margin-top: 0px;
+        top: 0px;
+    }
+    #loading-center{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        }
+    #loading-center-absolute {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 20px;
+        width: 100px;
+        margin-top: -10px;
+        margin-left: -50px;
+
+    }
+    .object{
+        width: 20px;
+        height: 20px;
+        background-color: #FFF;
+        -moz-border-radius: 50% 50% 50% 50%;
+        -webkit-border-radius: 50% 50% 50% 50%;
+        border-radius: 50% 50% 50% 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: absolute;	
+    }
+
+
+    #object_one{
+        -webkit-animation: object 2s linear infinite;
+        animation: object 2s linear infinite;
+        }
+    #object_two{ 
+        -webkit-animation: object 2s linear infinite -.4s;
+        animation: object 2s linear infinite -.4s;
+        }
+    #object_three{ 
+        -webkit-animation: object 2s linear infinite -.8s; 
+        animation: object 2s linear infinite -.8s; 
+        }
+    #object_four{ 
+        -webkit-animation: object 2s linear infinite -1.2s;
+        animation: object 2s linear infinite -1.2s; 
+        } 
+    #object_five{ 
+        -webkit-animation: object 2s linear infinite -1.6s; 
+        animation: object 2s linear infinite -1.6s; 
+        }
+        
+        
+    @-webkit-keyframes object{
+    0% { left: 100px; top:0}
+    80% { left: 0; top:0;}
+    85% { left: 0; top: -20px; width: 20px; height: 20px;}
+    90% { width: 40px; height: 15px; }
+    95% { left: 100px; top: -20px; width: 20px; height: 20px;}
+    100% { left: 100px; top:0; }		
+        
+    }		
+    @keyframes object{
+    0% { left: 100px; top:0}
+    80% { left: 0; top:0;}
+    85% { left: 0; top: -20px; width: 20px; height: 20px;}
+    90% { width: 40px; height: 15px; }
+    95% { left: 100px; top: -20px; width: 20px; height: 20px;}
+    100% { left: 100px; top:0; }
+    }
+
+/* <=======================> Loader Area Ende Here <===================> */
 
 /* <=====================> Header Area Start Here <===================> */
 
@@ -1059,6 +1139,7 @@ button.active {
 
 /* ======================> Big About Img Area End Here <=======================  */
 
+/* ======================> Call to action Area Start Here <======================= */
 
 .call-action-area {
     background: #F26957;
@@ -1085,7 +1166,71 @@ button.active {
     border: 1px solid #fff;
     background-color: transparent;
 }
+.call-action-btn-2 {
+    color: #fff;
+    background: #F26957;
+    padding: 10px 0px 10px 23px;
+    font-size: 15px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    margin-top: 5px;
+    display: block;
+    width: 119px;
+    transition: all ease .5s;
+}
+.call-action-btn-2:hover{
+    color: #F26957;
+    border: 1px solid #F26957;
+    background-color: transparent;
+    
+}
 
+/* ======================> Call to action Area End Here <======================= */
+
+/* ======================> Portfolio Detail Area Start Here <======================= */
+
+.details-img{
+    margin-bottom: 50px;
+}
+.details-img img {
+    max-width: 100%;
+}
+.dtails-left {
+    background: #25282b;
+    padding: 26px 32px;
+}
+.detail-left-title h5 {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+.dtails-left ul li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.dtails-left ul li span {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+    color: #dfdfdf;
+}
+.dtail-right-title h5 {
+    font-family: 'Roboto Condensed';
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.details-right {
+    margin-left: 65px;
+}
+.detail-right-content p{
+    padding:  0 19px 0 0;
+}
+
+/* ======================> Portfolio Detail Area Start Here <======================= */
 
 /* <=====================> Footer Area Start Here <===================> */
 
